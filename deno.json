@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net main.ts",
+    "example": "deno run --allow-net main.ts acm-portfolio-sp2024 > acm-portfolio-sp2024.json"
+  },
+  "imports": {
+    "deno_dom": "https://deno.land/x/deno_dom@v0.1.46/deno-dom-wasm.ts"
+  }
+}
