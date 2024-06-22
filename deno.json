@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch --allow-net main.ts",
+    "dev": "deno run --watch --allow-net serve.ts",
     "example": "deno run --allow-net main.ts acm-portfolio-sp2024 > acm-portfolio-sp2024.json"
   },
   "imports": {
